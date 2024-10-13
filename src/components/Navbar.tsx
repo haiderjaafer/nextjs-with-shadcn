@@ -10,7 +10,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-// import ThemeToggler from '@/components/ThemeToggler';
+ import ThemeToggler from '@/components/ThemeToggler';
 
 const Navbar = () => {
   return (
@@ -20,7 +20,7 @@ const Navbar = () => {
       </Link>
 
       <div className='flex items-center'>
-        {/* <ThemeToggler /> */}
+        <ThemeToggler />
         <DropdownMenu>
           <DropdownMenuTrigger className='focus:outline-none'>
             <Avatar>
